@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto GIFOS</title>
+    <link rel="stylesheet" href="style/style.css"/>
+    <link rel="stylesheet" href="style/menu.css"/>
+    <link rel="stylesheet" href="style/stylecontainer.css"/>
+    <link rel="stylesheet" href="https://use.typekit.net/ifa5kws.css">
+</head>
+<body>
+    <div class="linea-violeta">
+    </div>
+    <header>
+        <img src="img/logo-mobile.svg" alt="logo" class="logo"/>
+        <img src="img/logo-desktop.svg" alt="logo" id="logodesktop"/>
+        <nav>
+            <div class="menu">
+              <input type="checkbox" id="checkbox"/>
+                <span></span>
+                <span></span>
+                <span></span>
+                  <ul>
+                    <li class="menu-lista nocturno"><a href="indexGIFOSnocturno.html">MODO NOCTURNO</a></li>
+                    <li class="menu-lista favoritos"><a href="#favoritos">FAVORITOS</a></li>
+                    <li class="menu-lista mis-gifos"><a href="#mis-gifos">MIS GIFOS</a></li>
+                    <li class="boton-crear-gifo"><img src="img/button-crear-gifo.svg" alt="boton-crear-gifo" class="imagen-crear-gifo"/></li>
+            </div>
+                  </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+          <div class="seccion-principal-imagen">
+            <div class="contenedor-imagen">
+            <h1 class="titulo">Inspírate, busca, guarda, y crea los mejores <span class="verde"> GIFOS</span></h1>
+            <img src="img/ilustra_header.svg" alt="header" class="ilustra-header"/>
+            </div>
+          </div>
+        </section>
+        <section>
+            <div>
+                <ul id="giphy-trending-search">
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="estilo-buscador">
+                <input type="search" id="search" placeholder="Busca GIFOS y más">
+                <button id="searchBtn" type="button"><img src="img/icon-search.svg" alt="lupa" class="lupa"/></button>
+            </div>
+            <div class="container" id="buscadorCtn">
+            </div>
+        <section>
+            <div class="fondo-blanco">
+                <div class="caja-titulo">
+                    <p class="titulo-trending">Trending</p>
+                    <p class="frase-trending">Reactions, Entertainment, Sports, Stickers, Artists</p>
+                </div>
+            </div> 
+        </section>
+        <section>
+                <div class="fondo-gris">
+                    <p class="segundo-titulo">Trending</p>
+                    <p class="segunda-frase">Mira los últimos GIFO de nuestra comunidad.</p>
+                    <div class="gifos-trending">
+                    </div>
+                <div>
+            <ul id="giphy-term-search">
+            </ul>
+        </div>
+        <div>
+            <ul id="giphy-5gifs-search">
+            </ul>
+        </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="contenedor-principal-footer">
+            <div class="redes-sociales">
+            <p class="compartir">Compartir en:</p> 
+            <a class="facebook" href="https://www.facebook.com" target="blank_">
+            <img src="img/icon_facebook.svg" class="imagen-facebook"/>
+            </a>
+            <a class="twitter" href="https://www.twitter.com" target="blank_">
+            <img src="img/icon_twitter.svg" class="imagen-twitter"/>
+            </a>
+            <a class="instagram" href="https://www.instagram.com" target="blank_">
+            <img src="img/icon_instagram.svg" class="imagen-instagram"/>
+            </a>  
+            </div>
+            <div class="copyright">
+                <p>GIFOS ©2020 All Rights Reserved.</p>
+            </div>
+        </div>
+        <div class="linea-violeta2">
+        </div>
+    </footer>
+    <script src="js/configuration.js"></script>
+    <script src="js/lib/api.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

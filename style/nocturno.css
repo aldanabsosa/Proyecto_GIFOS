@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-color: #222326;
+  }
+  .seccion-principal-imagen{
+    margin-top: 100px;
+    width: 100%;
+    background:  #222326;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    font-family: montserrat;
+    font-size: 35px;
+    color: #572EE5;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-imagen{
+  margin-top: 50px;
+}
+.ilustra-header{
+    display: flex;
+    justify-content: center;
+}
+.imagen{
+  display: flex;
+  justify-content: center;
+}
+.fondo-gris{
+  background-color:  #222326;
+}
+/* segunda sección*/
+
+.segundo-titulo{
+    font-family: montserrat;
+    font-size: 18px;
+    color: #572EE5;
+    text-align: center;
+    line-height: 25px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 91px;
+    height: 25px;
+    margin-left: 675.5px;
+}
+.segunda-frase{
+    font-family: 'montserrat-medium';
+    font-size: 18px;
+    color: #572EE5;
+    text-align: center;
+    line-height: 25px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 402px;
+    height: 25px;
+    margin-top: 50px;
+    margin-left: 520px;
+}
+nav .menu-lista2 {
+    font-family: monserrat;
+    font-size: 16px;
+    color:white;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+/* inicio footer */
+.footer{
+    position: relative;
+    top: 900px;
+    width: 100%;
+    background:  #222326;
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedor-principal-footer{
+    position: relative;
+    width: 900px;
+    height: 22px;
+    top: 10px;
+    font-family: monserrat;
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+    display: flex;
+    margin-left: 20px;
+  }
+  .compartir{
+    position: relative;
+    width: 100%;
+    font-family: monserrat;
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+    display: flex;
+    flex-direction: column;
+  }
+  .redes-sociales{
+    position: relative;
+    display: flex;
+    margin-left: 20px;
+  }
+  .facebook{
+    font-size: 16px;
+    width: 100%;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  .twitter{
+    font-size: 16px;
+    width: 100%;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  .instagram{
+    font-size: 16px;
+    width: 100%;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  .copyright{
+    position: relative;
+    width: 300px;
+    height: 22px;
+    font-family: monserrat;
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+    float: right;
+    margin-left: 400px;
+  }
+
+  /* fin de footer */
