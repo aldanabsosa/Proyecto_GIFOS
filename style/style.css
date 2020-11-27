@@ -42,7 +42,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20px;
+    left: 20px;
 }
 .contenedor-imagen{
   margin-top: 50px;
@@ -60,8 +60,7 @@
   justify-content: center;
 }
 .verde{
-  color: #50E3C2;
-  margin-left: 10px; 
+  color: #50E3C2; 
 }
 .estilo-buscador{
   border: 1px solid #572EE5;
@@ -137,7 +136,7 @@
     margin-top: 50px;
 }
 .gifos-trending{
-    width: 100%;
+    min-width: 20%;
     display: flex;
     flex-direction: row;
 }
@@ -147,7 +146,7 @@
     width: 100%;
     background: #FFFFFF;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   .contenedor-principal-footer{
     position: relative;
@@ -344,7 +343,7 @@
       margin-top: 50px;
   }
   .gifos-trending{
-    width: 100%;
+    min-width: 20%;
     display: flex;
     flex-direction: row;
 }
@@ -354,23 +353,23 @@
     width: 100%;
     background: #FFFFFF;
     display: flex;
+    flex-direction: row;
   }
   .contenedor-principal-footer{
     position: relative;
     width: 100%;
     height: 22px;
-    font-family: monserrat;
+    font-family: 'monserrat';
     font-size: 14px;
     color: #060A24;
     letter-spacing: 0;
     line-height: 22px;
     display: flex;
-    margin-left: 20px;
   }
   .compartir{
     position: relative;
     width: 100%;
-    font-family: monserrat;
+    font-family: 'monserrat';
     font-size: 14px;
     color: #060A24;
     letter-spacing: 0;
@@ -380,7 +379,8 @@
   .redes-sociales{
     position: relative;
     display: flex;
-    margin-left: 20px;
+    left: 20px;
+    justify-content: space-between;
   }
   .facebook{
     font-size: 16px;
@@ -405,15 +405,14 @@
   }
   .copyright{
     position: relative;
-    width: 300px;
+    width: 100%;
     height: 22px;
-    font-family: monserrat;
+    font-family: 'monserrat';
     font-size: 14px;
     color: #060A24;
     letter-spacing: 0;
     line-height: 22px;
     float: right;
-    margin-left: 500px;
   }
   /* fin de footer */
 }

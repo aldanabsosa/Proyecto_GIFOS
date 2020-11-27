@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style/style.css"/>
     <link rel="stylesheet" href="style/menu.css"/>
     <link rel="stylesheet" href="style/stylecontainer.css"/>
+    <link rel="stylesheet" href="style/carousel.css"/>
     <link rel="stylesheet" href="https://use.typekit.net/ifa5kws.css">
 </head>
 <body>
@@ -66,6 +67,40 @@
                     <p class="segunda-frase">Mira los últimos GIFO de nuestra comunidad.</p>
                     <div class="gifos-trending">
                     </div>
+                    <div class="gifos-recomendados contenedor">
+                        <div class="contenedor-titulo-controles">
+                            <h3>Gifos Recomendados</h3>
+                            <div class="indicadores"></div>
+                        </div>
+                        <div class="contenedor-principal">
+                            <button role="button" id="flecha-izquierda" class="flecha-izquierda"><img src="img/button-slider-left.svg"></button>
+            
+                            <div class="contenedor-carousel">
+                                <div class="carousel">
+                                    <div class="imagen-gifos">
+                                        <a href="#"><img src="img/camara.svg" alt="Primer trending"></a>
+                                    </div>
+                                    <div class="imagen-gifos">
+                                        <a href="#"><img src="img/camara.svg" alt="Segundi trending"></a>
+                                    </div>
+                                    <div class="imagen-gifos">
+                                        <a href="#"><img src="img/camara.svg" alt="Tercer trending"></a>
+                                    </div>
+                                    <div class="imagen-gifos">
+                                        <a href="#"><img src="img/camara.svg" alt="Cuarto trending"></a>
+                                    </div>
+                                    <div class="imagen-gifos">
+                                        <a href="#"><img src="img/camara.svg" alt="Cuarto trending"></a>
+                                    </div>
+                                    <div class="imagen-gifos">
+                                        <a href="#"><img src="img/camara.svg" alt="Cuarto trending"></a>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <button role="button" id="flecha-derecha" class="flecha-derecha"><img src="img/Button-Slider-right.svg"></button>
+                        </div>
+                    </div>
                 <div>
             <ul id="giphy-term-search">
             </ul>
@@ -100,5 +135,6 @@
     <script src="js/configuration.js"></script>
     <script src="js/lib/api.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/carousel.js"></script>
 </body>
 </html>

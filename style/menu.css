@@ -13,9 +13,7 @@ header {
     padding: 10px 5%;
 }
 .logo {
-  size: 24px 24px;
   float: left;
-  margin-left: 5px;
 }
 header img {
     float: left;
