@@ -62,7 +62,17 @@
 .verde{
   color: #50E3C2; 
 }
+.contenedor-todo{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
 .estilo-buscador{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
   border: 1px solid #572EE5;
   border-radius: 15px;
   padding: 10px;
@@ -164,7 +174,7 @@
   .compartir{
     position: relative;
     width: 100%;
-    font-family: monserrat;
+    font-family: 'Monserrat';
     font-size: 14px;
     color: #060A24;
     letter-spacing: 0;
@@ -229,6 +239,7 @@
     bottom: 0;
   }
   .seccion-principal-imagen{
+    position: relative;
     top: 100px;
     width: 100%;
     background: #FFFFFF;
@@ -265,7 +276,17 @@
   display: flex;
   justify-content: center;
 }
+.contenedor-todo{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
 .estilo-buscador{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
   border: 1px solid #572EE5;
   border-radius: 15px;
   padding: 10px;

@@ -13,12 +13,15 @@ header {
     padding: 10px 5%;
 }
 .logo {
-  float: left;
+    width: 50px;
+    float: left;
 }
 header img {
     float: left;
 }
 header nav {
+    width: 700px;
+    height: 100px;
     float: right;
 }
 header nav .menu ul {
@@ -27,12 +30,10 @@ header nav .menu ul {
     position: absolute;
     top: 45px;
     right: 0;
-    overflow: hidden;
     list-style: none;
     background: #572EE5;
     opacity: 90%;
     height: 0px;
-    z-index:0 !important;
 }
 header nav .menu  ul li {
     position: relative;
@@ -110,6 +111,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 /*menu simple para pantalla mínima de 720px*/
 @media screen and (min-width: 720px){
     .logo{
+        width: 60px;
         position: relative;
         display: flex;
         float:left;
@@ -121,9 +123,8 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
         position: relative;
         top: 0;
         right: 0;
-        overflow: hidden;
         background: unset;
-        height: unset;
+        height: 80px;
         color: #572EE5;
         display: flex;
         float: right;
@@ -164,11 +165,14 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 /*menu simple para pantalla mínima de 1200px*/
 @media screen and (min-width: 1200px){
     .logo{
+        width: 60px;
         position: relative;
         display: flex;
         float:left;
     }
       nav {
+        width: 700px;
+        height: 100px;  
         float: right;
     }
     header nav .menu ul {
@@ -177,7 +181,8 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
         right: 0;
         overflow: hidden;
         background: unset;
-        height: unset;
+        width: 100%;
+        height: 80px;
         color: #572EE5;
         display: flex;
         float: right;
