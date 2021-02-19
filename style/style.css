@@ -150,6 +150,17 @@
     display: flex;
     flex-direction: row;
 }
+.card-img-top{
+    width: 80px; /* I took the width from your post and placed it in css */
+    height: 80px;
+    margin-left:2px;
+ }
+ 
+ /* This will style any <img> element in .parent div */
+ .card-img-top img {
+    height: 100%;
+    width: 100%;
+ }
 /* inicio footer */
 .footer{
     position: relative;

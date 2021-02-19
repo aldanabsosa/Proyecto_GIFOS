@@ -49,7 +49,7 @@ const addToDOMtrending = (info) => {
 
     let img = document.createElement('img');
     img.classList.add('card-img-top');
-    img.setAttribute('src', info.images.downsized_medium.url);
+    img.setAttribute('src', info.images.original.url);
     divCarContainer.appendChild(img);
     trendingCtn.appendChild(divCarContainer);
 }
