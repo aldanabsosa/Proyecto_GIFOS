@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto GIFOS</title>
+    <script src="https://kit.fontawesome.com/4afa00a4af.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="normalize.css"/>
     <link rel="stylesheet" href="style/style.css"/>
     <link rel="stylesheet" href="style/menu.css"/>
@@ -15,35 +16,35 @@
     <div class="linea-violeta">
     </div>
     <header>
-        <img src="img/logo-mobile.svg" alt="logo" class="logo"/>
-        <img src="img/logo-desktop.svg" alt="logo" id="logodesktop"/>
+            <img src="img/logo-mobile.svg" alt="logo" class="logo"/>
+            <img src="img/logo-desktop.svg" alt="logo" id="logodesktop"/>
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-window-close"></i>
         <nav>
             <div class="menu">
-              <input type="checkbox" id="checkbox"/>
-                <span></span>
-                <span></span>
-                <span></span>
-                  <ul>
+                <ul>
                     <li class="menu-lista nocturno"><a href="indexGIFOSnocturno.html">MODO NOCTURNO</a></li>
                     <li class="menu-lista favoritos"><a href="#favoritos">FAVORITOS</a></li>
                     <li class="menu-lista mis-gifos"><a href="#mis-gifos">MIS GIFOS</a></li>
                     <li class="boton-crear-gifo"><img src="img/button-crear-gifo.svg" alt="boton-crear-gifo" class="imagen-crear-gifo"/></li>
+                </ul>
             </div>
-                  </ul>
         </nav>
     </header>
     <main>
         <section>
           <div class="seccion-principal-imagen">
             <div class="contenedor-imagen">
-            <h1 class="titulo">Inspírate, busca, guarda, y crea los mejores <span class="verde"> GIFOS</span></h1>
-            <img src="img/ilustra_header.svg" alt="header" class="ilustra-header"/>
+            <h1 class="titulo">Inspírate, busca, guarda, y crea los mejores <span class="verde">GIFOS</span></h1>
             </div>
           </div>
         <div class="contenedor-todo">
-            <div class="estilo-buscador">
-                <input type="search" id="search" placeholder="Busca GIFOS y más">
-                <button id="searchBtn" type="button"><img src="img/icon-search.svg" alt="lupa" class="lupa"/></button>
+            <div class ="imagen-container-header">
+            <img src="img/ilustra_header.svg" alt="header" class="ilustra-header"/>
+            </div>
+            <div class="contenedor-estilo-buscador">
+                <input type="text" id="search" placeholder="Busca GIFOS y más">
+                <img src="img/icon-search.svg" alt="lupa" class="lupa" id="searchBtn"/>
             </div>
             <div class="container" id="buscadorCtn">
             </div>
@@ -62,46 +63,21 @@
             </div> 
         </section>
         <section>
-                <div class="fondo-gris">
-                    <p class="segundo-titulo">Trending</p>
-                    <p class="segunda-frase">Mira los últimos GIFO de nuestra comunidad.</p>
-                    <div class="gifos-trending">
+            <div class="fondo-gris">
+                <p class="segundo-titulo">Trending</p>
+                <p class="segunda-frase">Mira los últimos GIFO de nuestra comunidad.</p>
+ <!--                <button role="button" id="flecha-izquierda" class="flecha-izquierda"><img src="img/button-slider-left.svg"></button>    
+    -->             <div class="gifos-trending">
                     </div>
-                    <div class="gifos-recomendados contenedor">
-                        <div class="contenedor-titulo-controles">
-                            <h3>Gifos Recomendados</h3>
-                            <div class="indicadores"></div>
-                        </div>
-                        <div class="contenedor-principal">
-                            <button role="button" id="flecha-izquierda" class="flecha-izquierda"><img src="img/button-slider-left.svg"></button>
-            
-                            <div class="contenedor-carousel">
-                                <div class="carousel">
-                                    <div class="imagen-gifos">
-                                        <a href="#"><img src="img/camara.svg" alt="Primer trending"></a>
-                                    </div>
-                                    <div class="imagen-gifos">
-                                        <a href="#"><img src="img/camara.svg" alt="Segundi trending"></a>
-                                    </div>
-                                    <div class="imagen-gifos">
-                                        <a href="#"><img src="img/camara.svg" alt="Tercer trending"></a>
-                                    </div>
-                                    <div class="imagen-gifos">
-                                        <a href="#"><img src="img/camara.svg" alt="Cuarto trending"></a>
-                                    </div>
-                                    <div class="imagen-gifos">
-                                        <a href="#"><img src="img/camara.svg" alt="Cuarto trending"></a>
-                                    </div>
-                                    <div class="imagen-gifos">
-                                        <a href="#"><img src="img/camara.svg" alt="Cuarto trending"></a>
-                                    </div>
-                                </div>
-                            </div>
-            
-                            <button role="button" id="flecha-derecha" class="flecha-derecha"><img src="img/Button-Slider-right.svg"></button>
-                        </div>
+                <div class="gifos-recomendados contenedor">
+                    <div class="contenedor-titulo-controles">
+                        <div class="indicadores"></div>
+                </div>
+<!--                    <button role="button" id="flecha-derecha" class="flecha-derecha"><img src="img/Button-Slider-right.svg"></button>
+-->                  <div class="contenedor-principal">
                     </div>
-                <div>
+                </div>
+            <div>
             <ul id="giphy-term-search">
             </ul>
         </div>
@@ -112,23 +88,25 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="contenedor-principal-footer">
+        <p class="compartir">Compartir en:</p> 
             <div class="redes-sociales">
-            <p class="compartir">Compartir en:</p> 
-            <a class="facebook" href="https://www.facebook.com" target="blank_">
-            <img src="img/icon_facebook.svg" class="imagen-facebook"/>
-            </a>
-            <a class="twitter" href="https://www.twitter.com" target="blank_">
-            <img src="img/icon_twitter.svg" class="imagen-twitter"/>
-            </a>
-            <a class="instagram" href="https://www.instagram.com" target="blank_">
-            <img src="img/icon_instagram.svg" class="imagen-instagram"/>
-            </a>  
+                <div class= "facebook">
+                    <a href="https://www.facebook.com" target="blank_">
+                    <img src="img/icon_facebook.svg" class="imagen-facebook"/>
+                    </a>
+                </div>
+                <div class="twitter">
+                    <a href="https://www.twitter.com" target="blank_">
+                    <img src="img/icon_twitter.svg" class="imagen-twitter"/>
+                    </a>
+                </div>
+                <div class="instagram">
+                    <a class="instagram" href="https://www.instagram.com" target="blank_">
+                    <img src="img/icon_instagram.svg" class="imagen-instagram"/>
+                    </a>  
+                </div>
             </div>
-            <div class="copyright">
-                <p>GIFOS ©2020 All Rights Reserved.</p>
-            </div>
-        </div>
+            <p class="copyright">GIFOS ©2020 All Rights Reserved.</p>
         <div class="linea-violeta2">
         </div>
     </footer>

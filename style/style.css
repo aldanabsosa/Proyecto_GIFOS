@@ -13,16 +13,7 @@
   top: 0;
   position: absolute;
 }
-.linea-violeta2{
-  border: 1px solid #572EE5;
-  width: 100%;
-  height: 5px;
-  background-color: #572EE5;
-  bottom: 0;
-  position: absolute;
-}
 .seccion-principal-imagen{
-    margin-top: 100px;
     width: 100%;
     background: #FFFFFF;
     display: flex;
@@ -32,29 +23,30 @@
 }
 .titulo{
     font-family: montserrat;
-    font-size: 35px;
+    font-size: 25px;
     color: #572EE5;
     text-align: center;
     line-height: 50px;
     position: relative;
-    width: 286px;
-    height: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    left: 20px;
+    width: 90%;
+    left: 10px;
 }
 .contenedor-imagen{
   margin-top: 50px;
 }
-.ilustra-header{
-    margin-left: 20px;
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    width: 273px;
-    height: 130px;
+.imagen-container-header{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: auto;
 }
+.ilustra-header{ 
+    position: relative;   
+    margin: auto;
+    width: 250px;
+}
+
 .imagen{
   display: flex;
   justify-content: center;
@@ -63,24 +55,17 @@
   color: #50E3C2; 
 }
 .contenedor-todo{
-  position: absolute;
-  left: 0;
-  right: 0;
+  position: relative;
   margin: auto;
 }
-.estilo-buscador{
-  position: absolute;
-  left: 0;
-  right: 0;
+.contenedor-estilo-buscador{
+  position: relative;
   margin: auto;
   border: 1px solid #572EE5;
-  border-radius: 15px;
+  border-radius: 20px;
   padding: 10px;
-  width: 300px;
+  width: 90%;
   height: 50px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
 }
 .fondo-gris{
   background-color: #F3F5F8;
@@ -164,74 +149,65 @@
 /* inicio footer */
 .footer{
     position: relative;
+    height: 100px;
     width: 100%;
     background: #FFFFFF;
     display: flex;
-    flex-direction: row;
-  }
-  .contenedor-principal-footer{
-    position: relative;
-    width: 100%;
-    height: 22px;
-    top: 10px;
-    font-family: monserrat;
-    font-size: 14px;
-    color: #060A24;
-    letter-spacing: 0;
-    line-height: 22px;
-    display: flex;
-    margin-left: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   .compartir{
     position: relative;
-    width: 100%;
     font-family: 'Monserrat';
     font-size: 14px;
     color: #060A24;
     letter-spacing: 0;
-    line-height: 22px;
-    display: flex;
   }
   .redes-sociales{
     position: relative;
+    margin: auto;
     display: flex;
-    margin-left: 20px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
   }
   .facebook{
     font-size: 16px;
-    width: 100%;
     color: #060A24;
     letter-spacing: 0;
     line-height: 28px;
   }
   .twitter{
     font-size: 16px;
-    width: 100%;
+    margin-right: 15px;
+    margin-left: 15px;
     color: #060A24;
     letter-spacing: 0;
     line-height: 28px;
   }
   .instagram{
     font-size: 16px;
-    width: 100%;
     color: #060A24;
     letter-spacing: 0;
     line-height: 28px;
   }
   .copyright{
-    position: relative;
-    width: 300px;
-    height: 22px;
     font-family: monserrat;
     font-size: 14px;
     color: #060A24;
-    letter-spacing: 0;
-    line-height: 22px;
-    float: right;
-    margin-left: 50px;
   }
-
+  .linea-violeta2{
+    border: 1px solid #572EE5;
+    width: 100%;
+    height: 5px;
+    background-color: #572EE5;
+    bottom: 0;
+    position: absolute;
+  }  
   /* fin de footer */
+/*para pantalla mínima de 720px*/
+
 
 /*para pantalla mínima de 1200px*/
 @media screen and (min-width: 1200px){
@@ -251,7 +227,6 @@
   }
   .seccion-principal-imagen{
     position: relative;
-    top: 100px;
     width: 100%;
     background: #FFFFFF;
     display: flex;
@@ -264,42 +239,32 @@
     font-size: 35px;
     color: #572EE5;
     text-align: center;
-    line-height: 50px;
     position: relative;
-    width: 700px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .contenedor-imagen{
   margin-top: 50px;
 }
 .ilustra-header{
-    margin-left: 180px;
-    margin-top: 100px;
+    position: relative;
     display: flex;
     justify-content: center;
     width: 399px;
-    height: 190px;
 }
 .imagen{
   display: flex;
   justify-content: center;
 }
 .contenedor-todo{
-  position: absolute;
   left: 0;
   right: 0;
   margin: auto;
 }
 .estilo-buscador{
-  position: absolute;
   left: 0;
   right: 0;
   margin: auto;
   border: 1px solid #572EE5;
-  border-radius: 15px;
+  border-radius: 20px;
   padding: 10px;
   width: 551px;
   height: 50px;
@@ -308,10 +273,9 @@
   text-align: center;
   margin-left: 280px;
 }
-  .lupa{
-  float: right;
-  }
-
+.lupa{
+  width: 20px;
+}
   .fondo-gris{
     background-color: #F3F5F8;
   }
@@ -381,70 +345,14 @@
 }
 /* inicio footer */
 .footer{
-    position: relative;
-    width: 100%;
-    background: #FFFFFF;
-    display: flex;
-    flex-direction: row;
-  }
-  .contenedor-principal-footer{
-    position: relative;
-    width: 100%;
-    height: 22px;
-    font-family: 'monserrat';
-    font-size: 14px;
-    color: #060A24;
-    letter-spacing: 0;
-    line-height: 22px;
-    display: flex;
-  }
-  .compartir{
-    position: relative;
-    width: 100%;
-    font-family: 'monserrat';
-    font-size: 14px;
-    color: #060A24;
-    letter-spacing: 0;
-    line-height: 22px;
-    display: flex;
-  }
-  .redes-sociales{
-    position: relative;
-    display: flex;
-    left: 20px;
-    justify-content: space-between;
-  }
-  .facebook{
-    font-size: 16px;
-    width: 100%;
-    color: #060A24;
-    letter-spacing: 0;
-    line-height: 28px;
-  }
-  .twitter{
-    font-size: 16px;
-    width: 100%;
-    color: #060A24;
-    letter-spacing: 0;
-    line-height: 28px;
-  }
-  .instagram{
-    font-size: 16px;
-    width: 100%;
-    color: #060A24;
-    letter-spacing: 0;
-    line-height: 28px;
-  }
-  .copyright{
-    position: relative;
-    width: 100%;
-    height: 22px;
-    font-family: 'monserrat';
-    font-size: 14px;
-    color: #060A24;
-    letter-spacing: 0;
-    line-height: 22px;
-    float: right;
-  }
+  align-content: center;
+}
+.compartir{
+  margin-left: 50px;
+}
+.redes-sociales{
+  width: 200px;
+  margin-left: 50px;
+}
   /* fin de footer */
 }
