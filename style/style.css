@@ -22,7 +22,7 @@
     align-items: center;
 }
 .titulo{
-    font-family: montserrat;
+    font-family: 'Montserrat';
     font-size: 25px;
     color: #572EE5;
     text-align: center;
@@ -71,7 +71,7 @@
   width: 100%;
 }
 .titulo-trending{
-    font-family: montserrat;
+    font-family: 'Montserrat';
     font-size: 18px;
     color: #572EE5;
     text-align: center;
@@ -85,7 +85,7 @@
     margin-top: 50px;
 }
 .frase-trending{
-    font-family: montserrat;
+    font-family: 'Montserrat';
     font-size: 18px;
     color: #572EE5;
     text-align: center;
@@ -102,7 +102,7 @@
 /* segunda sección*/
 
 .segundo-titulo{
-    font-family: montserrat;
+    font-family: 'Montserrat';
     font-size: 18px;
     color: #572EE5;
     text-align: center;
@@ -116,7 +116,7 @@
     margin-top: 50px;
 }
 .segunda-frase{
-    font-family: 'montserrat-medium';
+    font-family: 'Montserrat-medium';
     font-size: 18px;
     color: #572EE5;
     text-align: center;
@@ -192,7 +192,7 @@
     line-height: 28px;
   }
   .copyright{
-    font-family: monserrat;
+    font-family: 'Monserrat';
     font-size: 14px;
     color: #060A24;
   }
@@ -234,7 +234,7 @@
     align-items: center;
 }
 .titulo{
-    font-family: montserrat;
+    font-family: 'Montserrat';
     font-size: 35px;
     color: #572EE5;
     text-align: center;
@@ -279,7 +279,7 @@
     background-color: #F3F5F8;
   }
   .titulo-trending{
-      font-family: montserrat;
+      font-family: 'Montserrat';
       font-size: 18px;
       color: #572EE5;
       text-align: center;
@@ -293,7 +293,7 @@
       margin-top: 50px;
   }
   .frase-trending{
-      font-family: montserrat;
+      font-family: 'Montserrat';
       font-size: 18px;
       color: #572EE5;
       text-align: center;
@@ -310,7 +310,7 @@
   /* segunda sección*/
   
   .segundo-titulo{
-      font-family: montserrat;
+      font-family: 'Montserrat';
       font-size: 18px;
       color: #572EE5;
       text-align: center;
@@ -324,7 +324,7 @@
       margin-top: 50px;
   }
   .segunda-frase{
-      font-family: 'montserrat-medium';
+      font-family: 'Montserrat-medium';
       font-size: 18px;
       color: #572EE5;
       text-align: center;
