@@ -14,13 +14,13 @@
     position: absolute;
 }
 body.nocturno .container_logo_header{
-    background-image: url(img/logo-mobile-modo-noct.svg);
+    background-image: url(../img/logo-mobile-modo-noct.svg);
 }
 body.nocturno .menu{
-    background-image: url(img/burger-modo-noct.svg);
+    background-image: url(../img/burger-modo-noct.svg);
 }
 body.nocturno .close_x{
-    background-image: url(img/close-modo-noct.svg);
+    background-image: url(../img/close-modo-noct.svg);
 }
 body.nocturno nav{
     background-color: #000000;
@@ -213,27 +213,27 @@ nav .menu-lista2 {
 /*para pantalla mínima de 1200px*/
 @media screen and (min-width:1200px){
     body.nocturno .container_logo_header{
-        background-image: url(img/Logo-modo-noc.svg);
+        background-image: url(../img/Logo-modo-noc.svg);
     }
     body.nocturno .createGif{
-        background-image: url(img/CTA-crear-gifo-modo-noc.svg);
+        background-image: url(../img/CTA-crear-gifo-modo-noc.svg);
     }
     body.nocturno .createGif:hover{
-        background-image: url(img/CTA-crear-gifo-hover-modo-noc.svg);
+        background-image: url(../img/CTA-crear-gifo-hover-modo-noc.svg);
     }
     body.nocturno nav{
         background-color: transparent;
     }
     body.nocturno .trending_left{
-        background-image: url(img/button-slider-left-md-noct.svg);
+        background-image: url(../img/button-slider-left-md-noct.svg);
     }
     body.nocturno .trending_right{
-        background-image: url(img/button-slider-right-md-noct.svg);
+        background-image: url(../img/button-slider-right-md-noct.svg);
     }
     body.nocturno .trending_left:hover{
-        background-image: url(img/button-slider-left-md-noct_hover.svg);
+        background-image: url(../img/button-slider-left-md-noct_hover.svg);
     }
     body.nocturno .trending_right:hover{
-        background-image: url(img/button-slider-right-md-noct-hover.svg);
+        background-image: url(../img/button-slider-right-md-noct-hover.svg);
     }
 }

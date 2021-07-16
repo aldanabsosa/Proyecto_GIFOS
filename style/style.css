@@ -66,6 +66,14 @@
   width: 90%;
   height: 50px;
 }
+.lupa-search {
+  position: absolute;
+  width:20px;
+  height: 20px;
+  right: 20px;
+  top: 15px;
+  cursor: pointer;
+}
 .fondo-gris{
   background-color: #F3F5F8;
   width: 100%;
