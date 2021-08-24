@@ -19,7 +19,4 @@ if (localStorage.getItem('modo-nocturno') === 'true') {
     document.body.classList.remove('nocturno');
     modoNocturno.textContent = 'Modo Nocturno';
 }
-if (document.body.contains('nocturno')) {
-    
-}
 /*Modo Nocturno*/
