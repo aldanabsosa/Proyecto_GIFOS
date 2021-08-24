@@ -151,9 +151,12 @@
     flex-direction: row;
 }
 .card-img-top{
-    width: 80px; /* I took the width from your post and placed it in css */
-    height: 80px;
+    width: 357px;
+    height: 275px;
     margin-left:2px;
+    position: relative;
+    /**    opacity: 0;
+ background-color:rgba(87, 46, 229, .5);*/
  }
  
  /* This will style any <img> element in .parent div */
